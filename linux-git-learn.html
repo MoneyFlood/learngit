@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>linux下使用git检出项目提交项目</title>
+</head>
+<body>
+    <p>
+        <pre>
+            linux 下检出github上的项目，
+                    1， mkdir test
+                    2，cd test
+                    3，git clone 地址
+            linux提交文件到github上
+                    1，vim hello.java
+                    1，git status
+                    2，git add hello.java--建立跟踪
+                    4，git status --继续查看状态
+                    5，git reset head hello.java(执行以后文件就不不能进行提交了)
+                    6，git commit--填写变更的评论
+                    7，git status--可以查看到没有文件可以提交了，如果没有说明文件提交到了工作区
+                    8，git push--命令将代码提交到github上
+            刷新github主页即可看到提交的信息
+        </pre>
+    </p>
+</body>
+</html>
